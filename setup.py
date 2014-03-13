@@ -34,6 +34,8 @@ setup(name = name,
       install_requires = [
         'setuptools',
         'plone.scale [storage]',
+        'five.globalrequest',
+        'plone.protect>=3.0.0a1',
       ],
       extras_require = {'test':
           ['collective.testcaselayer',
